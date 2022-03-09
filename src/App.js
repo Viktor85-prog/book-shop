@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux'
 import { setBooks } from './actions/books'
 import axios from 'axios'
-import HeadMenu from './components/Menu'
+import HeadMenu from './components/menu/Menu'
+import BookCard from './components/bookCard/BookCards'
 
 // import books from './books.json'
 
@@ -18,8 +19,9 @@ class App extends Component {
   render() {
     const { books, isReady } = this.props
     return (
-      <div>
+      <div className='container'>
         <HeadMenu />
+        <BookCard />
         <ul>
           {!isReady ? 'Loading...' : books.map(book => (<li key={books.id}>
             <b>{book.title}</b> - {book.author}
