@@ -21,11 +21,14 @@ class App extends Component {
     return (
       <div className='container'>
         <HeadMenu />
-        <BookCard />
         <ul>
-          {!isReady ? 'Loading...' : books.map(book => (<li key={books.id}>
-            <b>{book.title}</b> - {book.author}
-          </li>))}
+          {!isReady ? 'Loading...' : books.map(book => (
+            <BookCard {...book} />
+            // <li key={books.id}>
+            //   <b>{book.title}</b> - {book.author}
+            // </li>
+          ))
+          }
         </ul>
       </div>
     )
