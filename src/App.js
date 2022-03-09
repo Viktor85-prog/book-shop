@@ -4,6 +4,8 @@ import { setBooks } from './actions/books'
 import axios from 'axios'
 import HeadMenu from './components/menu/Menu'
 import BookCard from './components/bookCard/BookCards'
+import './app.css';
+
 
 // import books from './books.json'
 
@@ -21,15 +23,15 @@ class App extends Component {
     return (
       <div className='container'>
         <HeadMenu />
-        <ul>
-          {!isReady ? 'Loading...' : books.map(book => (
-            <BookCard {...book} />
+        <div className='flexContainer'>
+          {!isReady ? 'Loading...' : books.map((book, i) => (
+            <BookCard key={i} {...book} />
             // <li key={books.id}>
             //   <b>{book.title}</b> - {book.author}
             // </li>
           ))
           }
-        </ul>
+        </div>
       </div>
     )
 

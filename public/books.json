@@ -3,6 +3,7 @@
         "id": 0,
         "title": "Происхождение",
         "author": "Дэн Браун",
+        "author_photo": "https://litres.ru/static/authors/100/00/04/44/00044470_100.jpg",
         "image": "https://cv9.litres.ru/pub/c/elektronnaya-kniga/cover_415/27624091-den-braun-proishozhdenie-27624091.jpg",
         "price": 710,
         "rating": 3
@@ -11,6 +12,7 @@
         "id": 1,
         "title": "1984",
         "author": "Джордж Оруэлл",
+        "author_photo": "https://litres.ru/static/authors/100/00/04/86/00048646_100.jpg",
         "image": "https://cv0.litres.ru/sbc/09233908_cover_185-elektronnaya-kniga--.jpg",
         "price": 415,
         "rating": 5
@@ -19,6 +21,7 @@
         "id": 2,
         "title": "Девушка в тумане",
         "author": "Донато Карризи",
+        "author_photo": "https://litres.ru/static/authors/100/03/79/21/03792140_100.jpg",
         "image": "https://cv2.litres.ru/sbc/31635724_cover_185-elektronnaya-kniga-donato-karrizi-devushka-v-tumane.jpg",
         "price": 464,
         "rating": 4
@@ -27,6 +30,7 @@
         "id": 3,
         "title": "Империя должна умереть",
         "author": "Михаил Зыгарь",
+        "author_photo": "https://litres.ru/static/authors/100/00/06/01/00060157_100.jpg",
         "image": "https://cv0.litres.ru/sbc/30804904_cover_185-elektronnaya-kniga-mihail-zygar-imperiya-dolzhna-umeret.jpg",
         "price": 741,
         "rating": 3
@@ -35,6 +39,7 @@
         "id": 4,
         "title": "Земное притяжение",
         "author": "Татьяна Устинова",
+        "author_photo": "https://litres.ru/static/authors/100/00/04/52/00045292_100.jpg",
         "image": "https://cv9.litres.ru/sbc/30087292_cover_185-elektronnaya-kniga-tatyana-ustinova-zemnoe-prityazhenie.jpg",
         "price": 317,
         "rating": 1
@@ -43,6 +48,7 @@
         "id": 5,
         "title": "Зулейха открывает глаза",
         "author": "Гузель Яхина",
+        "author_photo": "https://litres.ru/static/authors/100/05/26/85/05268591_100.jpg",
         "image": "https://cv5.litres.ru/sbc/17411250_cover_185-elektronnaya-kniga-guzel-yahina-zuleyha-otkryvaet-glaza-2.jpg",
         "price": 254,
         "rating": 0
@@ -51,6 +57,7 @@
         "id": 6,
         "title": "Очаровательный кишечник. Как самый могущественный орган управляет нами",
         "author": "Джулия Эндерс",
+        "author_photo": "https://litres.ru/static/authors/100/06/19/38/06193845_100.jpg",
         "image": "https://cv7.litres.ru/pub/c/elektronnaya-kniga/cover_120/12178377-dzhuliya-enders-ocharovatelnyy-kishechnik-kak-samyy-moguschestvennyy-organ-upravlyaet-nami-12178377.jpg",
         "price": 573,
         "rating": 4
@@ -59,6 +66,7 @@
         "id": 7,
         "title": "iPhuck 10",
         "author": "Виктор Пелевин",
+        "author_photo": "https://litres.ru/static/authors/100/00/04/58/00045850_100.jpg",
         "image": "https://cv7.litres.ru/sbc/31221870_cover_185-elektronnaya-kniga-viktor-pelevin-iphuck-10-25564903.jpg",
         "price": 246,
         "rating": 0
@@ -67,6 +75,7 @@
         "id": 8,
         "title": "7 навыков высокоэффективных людей: Мощные...",
         "author": "Стивен Кови",
+        "author_photo": "https://litres.ru/static/authors/100/00/21/19/00211982_100.jpg",
         "image": "https://cv8.litres.ru/pub/c/elektronnaya-kniga/cover_415/4239285--.jpg",
         "price": 347,
         "rating": 5
@@ -75,6 +84,7 @@
         "id": 9,
         "title": "Девушка во льду",
         "author": "Роберт Брындза",
+        "author_photo": "https://litres.ru/static/authors/100/12/64/69/12646976_100.jpg",
         "image": "https://cv3.litres.ru/pub/c/elektronnaya-kniga/cover_415/27351732-robert-bryndza-12646976-devushka-vo-ldu.jpg",
         "price": 882,
         "rating": 2
@@ -83,6 +93,7 @@
         "id": 10,
         "title": "Магия утра. Как первый час дня определяет ваш успех",
         "author": "Хэл Элрод",
+        "author_photo": "https://litres.ru/static/authors/100/08/86/41/08864150_100.jpg",
         "image": "https://cv1.litres.ru/pub/c/elektronnaya-kniga/cover_415/19063017-hel-elrod-magiya-utra.jpg",
         "price": 829,
         "rating": 1
@@ -91,6 +102,7 @@
         "id": 11,
         "title": "Азиатская европеизация. История Российского государства. Царь Петр...",
         "author": "Борис Акунин",
+        "author_photo": "https://litres.ru/static/authors/100/00/04/43/00044351_100.jpg",
         "image": "https://cv3.litres.ru/sbc/31629439_cover_185-elektronnaya-kniga-boris-akunin-aziatskaya-evropeizaciya-istoriya-rossiyskogo-gosudarstva-car-petr-alekseevich.jpg",
         "price": 389,
         "rating": 2
@@ -99,6 +111,7 @@
         "id": 12,
         "title": "Ведьмак (сборник)",
         "author": "Анджей Сапковский",
+        "author_photo": "https://litres.ru/static/authors/100/00/04/43/00044351_100.jpg",
         "image": "https://cv6.litres.ru/pub/c/elektronnaya-kniga/cover_415/6375365-andzhey-sapkovskiy-vedmak.jpg",
         "price": 424,
         "rating": 3
@@ -107,6 +120,7 @@
         "id": 13,
         "title": "Атлант расправил плечи",
         "author": "Айн Рэнд",
+        "author_photo": "https://litres.ru/static/authors/100/00/04/72/00047292_100.jpg",
         "image": "https://cv7.litres.ru/pub/c/elektronnaya-kniga/cover_415/4236675-ayn-rend-atlant-raspravil-plechi.jpg",
         "price": 157,
         "rating": 2
@@ -115,6 +129,7 @@
         "id": 14,
         "title": "Цена вопроса. Том 1",
         "author": "Александра Маринина",
+        "author_photo": "https://litres.ru/static/authors/100/00/05/41/00054149_100.jpg",
         "image": "https://cv6.litres.ru/sbc/33285466_cover_185-elektronnaya-kniga-aleksandra-marinina-cena-voprosa-tom-1-22638660.jpg",
         "price": 664,
         "rating": 0
@@ -123,6 +138,7 @@
         "id": 15,
         "title": "Исчезнувшая",
         "author": "Гиллиан Флинн",
+        "author_photo": "https://litres.ru/static/authors/100/03/07/64/03076499_100.jpg",
         "image": "https://cv2.litres.ru/sbc/11029722_cover_185-elektronnaya-kniga-gillian-flinn-ischeznuvshaya.jpg",
         "price": 476,
         "rating": 4
@@ -131,6 +147,7 @@
         "id": 17,
         "title": "Метро 2035",
         "author": "Дмитрий Глуховский",
+        "author_photo": "https://litres.ru/static/authors/100/00/04/84/00048463_100.png",
         "image": "https://cv9.litres.ru/sbc/13698392_cover_185-elektronnaya-kniga-dmitriy-gluhovskiy-metro-2035.jpg",
         "price": 837,
         "rating": 4
@@ -139,6 +156,7 @@
         "id": 18,
         "title": "Снеговик",
         "author": "Ю Несбё",
+        "author_photo": "https://litres.ru/static/authors/100/00/06/01/00060198_100.jpg",
         "image": "https://cv6.litres.ru/pub/c/elektronnaya-kniga/cover_415/4578362-u-nesbe-snegovik-4578362.jpg",
         "price": 796,
         "rating": 5
@@ -147,6 +165,7 @@
         "id": 19,
         "title": "Как тренировать память. Не думайте о памяти – лучше используйте ее на все сто!",
         "author": "Джонатан Хэнкок",
+        "author_photo": "https://www.litres.ru/static/litres/i/cover/no_img/person_no_foto.png",
         "image": "https://cv1.litres.ru/sbc/14195715_cover_185-elektronnaya-kniga-dzhonatan-henkok-kak-trenirovat-pamyat-ne-dumayte-o-pamyati-luchshe-ispolzuyte-ee-na-vse-sto.jpg",
         "price": 399,
         "rating": 5
