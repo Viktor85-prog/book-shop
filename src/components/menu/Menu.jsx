@@ -16,7 +16,7 @@ const HeadMenu = () => (
         <input type='checkbox' id='responsive-menu' onclick='updatemenu()' /><label></label>
         <ul>
             <li><a href='http://'>Магазин</a></li>
-            <li><a class='dropdown-arrow' href='http://'>Products</a>
+            <li><a class='dropdown-arrow' href='http://'>Категории</a>
                 <ul class='sub-menus'>
                     <li><a href='http://'> Sub Menu 1</a></li>
                     <li><a href='http://'> Sub Menu 2</a></li>
