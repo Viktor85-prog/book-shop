@@ -1,5 +1,7 @@
 import React from 'react';
 import './menu.css'
+import Filter from '../../containers/Filter'
+
 
 
 // function updatemenu() {
@@ -11,21 +13,13 @@ import './menu.css'
 //     }
 // }
 
-const HeadMenu = () => (
+const HeadMenu = (props) => (
     <nav id='menu'>
-        <input type='checkbox' id='responsive-menu' onclick='updatemenu()' /><label></label>
         <ul>
-            <li><a href='http://'>Магазин</a></li>
-            <li><a class='dropdown-arrow' href='http://'>Категории</a>
-                <ul class='sub-menus'>
-                    <li><a href='http://'> Sub Menu 1</a></li>
-                    <li><a href='http://'> Sub Menu 2</a></li>
-                    <li><a href='http://'> Sub Menu 3</a></li>
-                    <li><a href='http://'> Sub Menu 4</a></li>
-                </ul>
-            </li>
-            <li><a href='http://'>Итого: &nbsp;<b>0</b> руб.</a></li>
-            <li><a href='http://'>Корзина <b>0</b></a></li>
+            <li><a href='#'>Магазин</a></li>
+            <Filter />
+            <li><a href='#'>Итого: &nbsp;<b>0</b> руб.</a></li>
+            <li><a href='#'>Корзина <b>0</b></a></li>
         </ul>
     </nav>
 )
