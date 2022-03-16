@@ -20,11 +20,21 @@ const sortBy = (books, filterBy) => {
     }
 
 }
+const filterBooks = (books, searchQuery) => {
+    return books.filter(o =>
+        o.title.toLowerCase().indexOf(searchQuery.toLowerCase()) >= 0 ||
+        o.author.toLowerCase().indexOf(searchQuery.toLowerCase()) >= 0
+    )
+}
 
+const searchBooks = (books, filterBy, searchQuery) => {
+    debugger
+    return sortBy(filterBooks(books, searchQuery), filterBy)
+}
 
-
-const mapStateToProps = ({ books }) => ({
-    books: sortBy(books.items, books.filterBy),
+const mapStateToProps = ({ books, filter }) => ({
+    books: books.items &&
+        searchBooks(books.items, filter.filterBy, filter.searchQuery),
     isReady: books.isReady
 
 })

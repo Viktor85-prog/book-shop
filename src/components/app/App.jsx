@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios'
-import HeadMenu from '../menu/Menu'
+import HeadMenu from '../../containers/HeadMenu'
 import BookCard from '../bookCard/BookCards'
 import './app.css';
 
@@ -15,10 +15,11 @@ class App extends Component {
       })
   }
   render() {
-    const { books, isReady } = this.props
+    const { books, isReady, setSearchQuery } = this.props
+    debugger
     return (
       <div className='container'>
-        <HeadMenu />
+        <HeadMenu setSearchQuery={setSearchQuery} />
         <div className='flexContainer'>
           {!isReady ? 'Loading...' : books.map((book, i) => (
             <BookCard key={i} {...book} />

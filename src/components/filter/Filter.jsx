@@ -1,9 +1,9 @@
 import React from 'react';
 
-import '../menu/menu.css'
+import '../headMenu/headMenu.css'
 
 
-const Filter = ({ setFilter, filterBy }) => {
+const Filter = ({setFilter}) => {
 
     const handleItemClick = (name) => {
         setFilter(name)

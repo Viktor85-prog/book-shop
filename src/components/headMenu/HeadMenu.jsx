@@ -1,6 +1,6 @@
 import React from 'react';
-import './menu.css'
-import Filter from '../../containers/Filter'
+import './headMenu.css'
+import Filter from '../filter/Filter'
 
 
 
@@ -14,10 +14,13 @@ import Filter from '../../containers/Filter'
 // }
 
 const HeadMenu = (props) => (
+
     <nav id='menu'>
         <ul>
             <li><a href='#'>Магазин</a></li>
-            <Filter />
+            <Filter setFilter={props.setFilter} />
+            <li><input placeholder='Поиск...' onChange={(e) => props.setSearchQuery(e.target.value)} value={props.searchQuery} /></li>
+            {/* <li><a href="">ggraf</a></li> */}
             <li><a href='#'>Итого: &nbsp;<b>0</b> руб.</a></li>
             <li><a href='#'>Корзина <b>0</b></a></li>
         </ul>

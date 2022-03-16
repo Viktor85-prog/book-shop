@@ -1,6 +1,11 @@
 import { UserCard } from 'react-ui-cards';
 import './bookCard.css'
 
+const changeLength = (title) => {
+    let newTitle = (title.length < 20) ? title.slice(0, 20) : (title.slice(0, 18) + '...')
+    return newTitle
+}
+
 const BookCard = ({ title, author, price, image, author_photo, rating }) => (
     // image.slice(0, 4)
     < UserCard
@@ -8,7 +13,7 @@ const BookCard = ({ title, author, price, image, author_photo, rating }) => (
         // href='https://github.com/nukeop'
         header={image}
         avatar={author_photo}
-        name={title}
+        name={changeLength(title)}
         positionName={author}
         stats={
             [{

@@ -1,10 +1,11 @@
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 import * as filterActions from '../actions/filter'
-import Filter from "../components/filter/Filter"
+import HeadMenu from "../components/headMenu/HeadMenu"
 
-const mapStateToProps = ({ books }) => ({
-    filterBy: books.items
+const mapStateToProps = ({ books, filter }) => ({
+    filterBy: filter.filterBy
+
 })
 
 const mapDispatchToProps = dispatch => ({
@@ -12,4 +13,4 @@ const mapDispatchToProps = dispatch => ({
 })
 
 
-export default connect(mapStateToProps, mapDispatchToProps)(Filter);
+export default connect(mapStateToProps, mapDispatchToProps)(HeadMenu);

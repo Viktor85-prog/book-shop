@@ -36,12 +36,17 @@
     background: #f2f2f2;
 }
 #menu input {
-    display: none;
+    line-height: 15px;
+    margin: 14px;
+    border-radius: 8px;
+    border: none;
+    padding: 3px 7px;
+    /* display: none;
     margin: 0;
     padding: 0;
     height: 50px;
     width: 100%;
-    opacity: 0;
+    opacity: 0; */
     cursor: pointer;
 }
 #menu label {
