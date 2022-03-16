@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios'
 import HeadMenu from '../../containers/HeadMenu'
-import BookCard from '../bookCard/BookCards'
+import BookCard from '../../containers/bookCard'
 import './app.css';
 
 
